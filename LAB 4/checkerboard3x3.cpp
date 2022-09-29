@@ -12,15 +12,14 @@ using namespace std;
 
 int main()
 {
-  int height, width;
-  cout << "Input height: ";
-  cin >> height;
-
-  cout << "Input width: ";
+  int width, height;
   cin >> width;
-
+  //
+  cin >> height;
+  //
   char row_start = '*';
   char col_shape = '*';
+  //
   for (int row = 1; row <= height; row++)
   {
     col_shape = row_start;
@@ -53,3 +52,6 @@ int main()
     cout << '\n';
   }
 }
+//
+//
+//

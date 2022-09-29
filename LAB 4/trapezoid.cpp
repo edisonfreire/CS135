@@ -14,16 +14,20 @@ using namespace std;
 
 int main()
 {
-  int height, width;
-  cout << "Input height: ";
-  cin >> height;
+  int width, height;
 
-  cout << "Input width: ";
   cin >> width;
 
-  if (width / 2 < height)
+  cin >> height;
+  // comment
+  // comment
+  // comment
+  // comment
+  // comment
+  // comment
+  if (width - (2 * (height - 1)) <= 0)
   {
-    cout << "Impossible\n";
+    cout << "Impossible shape!\n";
     return 0;
   }
 
@@ -47,3 +51,9 @@ int main()
   }
   return 0;
 }
+// comment
+// comment
+// comment
+// comment
+// comment
+// comment
