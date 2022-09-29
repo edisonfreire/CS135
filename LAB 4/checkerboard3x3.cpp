@@ -9,3 +9,47 @@ Write a program checkerboard3x3.cpp that asks the user to input width and height
 
 #include <iostream>
 using namespace std;
+
+int main()
+{
+  int height, width;
+  cout << "Input height: ";
+  cin >> height;
+
+  cout << "Input width: ";
+  cin >> width;
+
+  char row_start = '*';
+  char col_shape = '*';
+  for (int row = 1; row <= height; row++)
+  {
+    col_shape = row_start;
+    for (int col = 1; col <= width; col++)
+    {
+      cout << col_shape;
+      if (col % 3 == 0)
+      {
+        if (col_shape == '*')
+        {
+          col_shape = ' ';
+        }
+        else
+        {
+          col_shape = '*';
+        }
+      }
+    }
+    if (row % 3 == 0)
+    {
+      if (row_start == '*')
+      {
+        row_start = ' ';
+      }
+      else
+      {
+        row_start = '*';
+      }
+    }
+    cout << '\n';
+  }
+}

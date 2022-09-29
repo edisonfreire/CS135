@@ -13,6 +13,7 @@ using namespace std;
 int main()
 {
   int sideLength;
+
   cout << "Input side length: ";
   cin >> sideLength;
   // comment
@@ -20,18 +21,15 @@ int main()
   // comment
 
   cout << "Shape:\n";
-  for (int i = 1; i <= sideLength; i++)
+  for (int row = 1; row <= sideLength; row++)
   {
-    for (int j = 1; j <= sideLength; j++)
+    for (int col = 1; col <= row - 1; col++)
     {
-      if (j == i || j == (sideLength + 1 - i))
-      {
-        cout << "*";
-      }
-      else
-      {
-        cout << " ";
-      }
+      cout << " ";
+    }
+    for (int col = 1; col <= sideLength - row + 1; col++)
+    {
+      cout << "*";
     }
     cout << "\n";
   }
