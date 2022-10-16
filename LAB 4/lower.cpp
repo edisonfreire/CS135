@@ -15,10 +15,6 @@ int main() {
   int sideLength;
   cout << "Input side length: ";
   cin >> sideLength;
-  // comment
-  // comment
-  // comment
-
   cout << "Shape:\n";
   for (int i = 1; i <= sideLength; i++) {
     for (int j = 1; j <= i; j++) {
@@ -27,7 +23,3 @@ int main() {
     cout << "\n";
   }
 }
-
-// comment
-// comment
-// comment

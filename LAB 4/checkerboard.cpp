@@ -18,10 +18,6 @@ int main() {
   cin >> width;
   cout << "Input height: ";
   cin >> height;
-  // comment
-  // comment
-  // comment
-
   cout << "Shape:\n";
   for (int i = 1; i <= height; i++) {
     for (int j = 1; j <= width; j++) {
@@ -34,7 +30,3 @@ int main() {
     cout << "\n";
   }
 }
-
-// comment
-// comment
-// comment

@@ -15,10 +15,6 @@ int main() {
   int size;
   cout << "Input size: ";
   cin >> size;
-  // comment
-  // comment
-  // comment
-
   cout << "Shape:\n";
   for (int i = 1; i <= size; i++) {
     for (int j = 1; j <= size; j++) {
@@ -31,7 +27,3 @@ int main() {
     cout << "\n";
   }
 }
-
-// comment
-// comment
-// comment

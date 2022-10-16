@@ -16,16 +16,8 @@ using namespace std;
 
 int main() {
   int width, height;
-
   cin >> width;
-
   cin >> height;
-  // comment
-  // comment
-  // comment
-  // comment
-  // comment
-  // comment
   if (width - (2 * (height - 1)) <= 0) {
     cout << "Impossible shape!\n";
     return 0;
@@ -48,9 +40,3 @@ int main() {
   }
   return 0;
 }
-// comment
-// comment
-// comment
-// comment
-// comment
-// comment
